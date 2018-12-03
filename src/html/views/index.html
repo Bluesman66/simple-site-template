@@ -1,0 +1,11 @@
+<% var data = {
+  title: "Title",
+  author: "Alex Paclin"
+}; %>
+<%= _.template(require('./../includes/header.html'))(data) %>
+
+<div class="page__container">
+  First page.
+</div>
+
+<%= _.template(require('./../includes/footer.html'))(data) %>
